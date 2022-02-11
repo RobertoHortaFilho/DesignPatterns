@@ -6,7 +6,6 @@ class BurguerBuilder {
 
     chooseBread(bread){
         this.bread = bread
-        console.log(this)
         return this;
     }
 
@@ -26,6 +25,7 @@ class BurguerBuilder {
     }
 
     build(){
+        //console.log(this) //o this nesse caso é o proprio BurguerBuilder com todos os seus atributos passados como objeto
         return new Burger(this);
     }
     

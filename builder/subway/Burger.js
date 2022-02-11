@@ -7,7 +7,9 @@ class Burger{
         this.sauces = builder.sauces || false;
         this.salads = builder.salads || false;
     }
+    
+    typeOf = Burger
 }
 
-const nome = "roberto"
-export default nome
+
+module.exports = Burger
